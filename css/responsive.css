@@ -1,0 +1,13 @@
+
+@media only screen and (max-width: 1344px) {
+	.social_reactions_row {
+	    background-image: none;
+	 }
+}
+
+@media only screen and (max-width: 767px) {
+	.device_row {
+	    padding: 30px 20px 35px;
+	}
+}
+

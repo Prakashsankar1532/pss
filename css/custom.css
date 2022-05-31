@@ -1,0 +1,346 @@
+/* Fonts */
+
+/* Poppins Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/* Device */
+
+.device {
+    background-image: url(../images/device/device_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.device_row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 45px 55px;
+}
+.device_column {
+    margin-bottom: 20px;
+}
+.device_actions a {
+	font-size: 15px;
+    color: #5e5d5d;
+    font-weight: 500;
+    width: 100%;
+    max-width: 163px;
+    height: 24px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 8px rgba(90,89,86,0.29));
+    background-color: #ffffff;
+    border: 2px solid #a1a1a1;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    transition: all 0.5s;
+}
+.device_actions a:hover {
+	background-color: #cea86b;
+	color: #ffffff;
+}
+.device_actions p {
+    margin: -10px 0 40px;
+}
+.device_actions p:last-child {
+    margin: 0;
+}
+
+
+/* Social Reactions */
+
+.social_reactions{
+    background-image: url(../images/device/device_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.social_reactions_row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 30px 55px;
+    background-image: url(../images/socialreactions/bg_bar.png);
+    background-repeat: no-repeat;
+    background-position-y: 34%;
+    background-position-x: 50%;
+}
+.social_reactions_column {
+    margin-bottom: 30px;
+    padding: 0 6px;
+}
+
+.social_reactions_actions a {
+	font-size: 15px;
+    color: #5e5d5d;
+    font-weight: 500;
+    width: 100%;
+    max-width: 163px;
+    height: 24px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 8px rgba(90,89,86,0.29));
+	background-color: #ffffff;
+	border: 2px solid #a1a1a1;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    transition: all 0.5s;
+}
+.social_reactions_actions a:hover {
+	background-color: #3eb7d6;
+	color: #ffffff;
+}
+
+.social_reactions_actions p {
+    font-size: 15px;
+    color: #5e5d5d;
+    font-weight: 500;
+    margin: 10px 0 15px;
+}
+
+.social_reactions_actions p:last-child {
+    margin: 0;
+}
+
+/* Quartile */
+
+
+.quartile{
+    background-image: url(../images/device/device_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.quartile_container {
+	max-width: 1130px;
+	margin: auto;
+}
+
+.quartile_row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 30px 55px;
+}
+.quartile_column {
+    margin-bottom: 30px;
+    padding: 0 6px;
+}
+
+.quartile_actions a {
+	font-size: 15px;
+    color: #5e5d5d;
+    font-weight: 500;
+    width: 100%;
+    max-width: 163px;
+    height: 24px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 8px rgba(90,89,86,0.29));
+	background-color: #ffffff;
+	border: 2px solid #a1a1a1;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    transition: all 0.5s;
+}
+.quartile_actions a:hover {
+	background-color: #ff2b70;
+	color: #ffffff;
+}
+
+.quartile_img {
+    position: relative;
+    background-image: url(../images/video/quartile.png);
+    background-size: contain;
+    background-position: center center;
+    padding: 33px;
+    background-repeat: no-repeat;
+}
+.quartile_img p {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 29px;
+    color: #4d4b4b;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.quartile_title h2 {
+    margin: 0 0 15px;
+    font-size: 29px;
+    color: #707070;
+    font-weight: 600;
+}
+
+.quartile_title h3 {
+	font-size: 23px;
+	color: #858484;
+	font-weight: 500;
+	margin: 0;
+}
+
+.pie, .pie svg {
+    max-width: 165px;
+    width: 100%!important;
+    margin: auto;
+    height: auto!important;
+}
+
+
+/* Day of week */
+.dayofweek {
+    padding: 100px 30px;
+}
+.dayofweek table, .dayofweek td, .dayofweek th {
+  border: 5px solid #FFF;
+}
+.dayofweek table {
+  width: 100%;
+  border-collapse: collapse;
+  filter: drop-shadow(0 0 5px rgba(33,33,33,0.29));
+  background-color: #ffffff;
+  border: 15px solid #ffffff;
+  outline: 1px solid #808080;
+}
+.dayofweek th {
+    background-color: #5adecd;
+    font-size: 12px;
+    color: #3b3b3b;
+    font-weight: 600;
+    text-align: center;
+}
+.dayofweek .days {
+    background-color: #5adecd;
+    font-size: 17px;
+    color: #3b3b3b;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Colors */
+
+.bg_0_29 {
+	background-color: #ffca7f;
+}
+
+.bg_30_59 {
+	background-color: #e1e1e1;
+}
+
+.bg_60_89 {
+	background-color: #f86084;
+}
+
+.bg_90_119 {
+	background-color: #55b7f1;
+}
+
+.bg_120_149 {
+	background-color: #ff9390;
+}
+
+.bg_150_179 {
+	background-color: #c1de96;
+}
+
+.bg_180_209 {
+	background-color: #f7b3d1;
+}
+
+.bg_210_240 {
+	background-color: #d7c4b1;
+}
+
+.bg_empty {
+	background-color: #666ef9;
+}
+
+.box {
+	width: 40px;
+	height: 30px;
+	margin: auto;
+}
+.dayofweek_row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1290px;
+    margin: 45px auto;
+    text-align: center;
+}
+.dayofweek_column {
+    flex: 0 0 10%;
+}
+ 
+.dayofweek_column p {
+	font-size: 12px;
+	color: #5e5d5d;
+	font-weight: 600;
+	text-align: center;
+} 
+
+
+
+
+
+
+
+
+
+.banner {
+    background-image: url(../images/bg.jpeg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    height: 100%;
+}
+
+.banner_row {
+    width: 100%;
+    min-height: 600px;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.banner_row a {
+    background-color: #FFF;
+    padding: 15px 47px;
+    border-radius: 5px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 26px;
+    transition: all 0.5s;
+}
+.banner_row a:hover {
+    background-color: #284593;
+    color: #FFFFFF;
+}
+
+.banner_btn {
+    margin: 65px 100px 65px 0;
+}
